@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #827397;
+}
+
+.maincontain {
+    margin: 100px;
+
+    border: 15px solid black;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #CDF0EA;
+    padding: 60px;
+}
+
+.section {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: #CDF0EA;
+    margin: auto;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+
+.image,
+img {
+
+    height: 220px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 5px;
+    /* border: 3px solid red; */
+}
+
+.title {
+    display: block;
+    /* border: 1px solid blue; */
+    text-align: center;
+    height: 50%;
+    width: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 10%;
+    padding-left: 40px;
+
+}
+
+.title>p {
+    color: red;
+    /* border: 1px solid blue; */
+    text-align: right;
+}
+
+.content>h1 {
+    font-size: 60px;
+    padding: 10px;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Arial Narrow Bold', sans-serif
+}
+
+.content>p {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    text-indent: 40px;
+    word-spacing: 4px;
+    line-height: .8cm;
+}
+
+.content>p::first-letter {
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(0, 0, 0)
+}
+
+.biography {
+
+    display: inline-block;
+    width: auto;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.list {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: .9cm;
+    padding-left: 29px;
+    font-size: 20px;
+
+}
+
+.list>p {
+    text-align: right;
+    text-decoration: none;
+
+}
+
+.link {
+    text-decoration: none;
+    margin-top: 10px;
+}
